@@ -1,0 +1,76 @@
+/* Colors: Light Blue: #cef2f2;*/
+/* Deeper Green: #274001; Light Green Foliage: #99a63c*/
+/* Dark Green Foliage: #3e5902; Beige Sand: #d9b596*/
+
+
+body {
+    background-color: #cef2f2; /* Light Blue */
+}
+
+h1 {
+    font-size: 5em;
+    color: #3e5902; /*Dark Green Foliage*/
+} 
+
+h3 {
+    font-size: 2em;
+    color: #3e5902; /*Dark Green Foliage*/
+}
+
+#container {
+    text-align: center;
+    position: relative;
+    margin: 50px 50px 75px 50px;
+}
+
+#content {
+    margin-bottom: 50px;
+}
+
+#image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    border: 6px dashed #99a63c; /* Light Green Foliage */
+    padding: 7px;
+}
+
+.gallery-item {
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+}
+
+img {
+    border: 1px solid #d9b596; /* Beige Sand */
+}
+
+figcaption {
+    font-family: "Verdana", Sans-serif;
+    color: 3e5902; /*Deeper Green*/
+    font-size: .9em;
+    text-align: justify;
+    padding: 20px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 50;
+    right: 0;
+}   
+
+#footer a {
+    display: block;
+    padding: 3px;
+    text-align: right;
+}
+
+a {
+    color: #274001; /* Deeper Green */
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #d9b596; /* Beige Sand */
+}
